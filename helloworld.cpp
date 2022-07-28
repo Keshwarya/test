@@ -1,8 +1,10 @@
 #include<iostream>
+#include<string> 
 using namespace std;
 
 int main()
 {
-cout<<"Hello world"<<endl;
+string name = "C++";
+cout<<"Hello world"<<name<<endl;
 return 0;
 }
